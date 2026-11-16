@@ -1,4 +1,4 @@
-# How Does Compute Scale with World State Complexity in LLM-Generated Visual Novel Schemas?
+# How Does Compute Scale with Constrained Multimodal Narration? An Evaluation of Decoding Performance in Structured MLLM Outputs for 2D Visual Novels
 
 ## Abstract
 
