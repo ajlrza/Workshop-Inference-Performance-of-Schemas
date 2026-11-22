@@ -1,13 +1,11 @@
-# How Does Compute Scale with Constrained Multimodal Narration? An Evaluation of Decoding Performance in Structured MLLM Outputs for 2D Visual Novels
+# Is Constrained Multimodal Narration Reliable for Visual Novels? An Evaluation of Schematic Input Performance in MLLMs
 > Submission Plan: NAACL SRW 2027 (Student Research Workshop at NAACL 2027)
 
 ## Abstract
 
 Visual novels are often combined with text and images. Each components in a visual novel serves as parts in a multimodal reasoning. Connecting text and images could introduce concerns in inference. In the case of visual novels, balancing the "world" during inference takes up a lot of resources, especially with how rich in storytelling and narration visual novels are.
 
-This paper aims to explore underlying resource expenditures during its inference and provide insights in how multimodal LLMs world building exhaust compute in the context of visual novels.
-
-We test a constrained schema on the model by attaching the sprite image, background image, and dialogues.
+We evaluate how constrained multimodal schemas affect multi-turn dialogue and world-state consistency in 2D visual novel worlds across static and dynamic narration modes, analyzing both structured output reliability and decoding overhead
 
 ---
 
