@@ -5,7 +5,7 @@
 
 Visual novels are often combined with text and images. Each components in a visual novel serves as parts in a multimodal reasoning. Connecting text and images could introduce concerns in inference. In the case of visual novels, balancing the "world" during inference takes up a lot of resources, especially with how rich in storytelling and narration visual novels are.
 
-We evaluate how constrained multimodal schemas affect multi-turn dialogue and world-state consistency in 2D visual novel worlds across static and dynamic narration modes, analyzing both structured output reliability and decoding overhead
+We evaluate how constrained multimodal schemas affect multi-turn dialogue and world-state consistency in 2D visual novel worlds across static and dynamic narration modes, analyzing both structured output reliability and decoding overhead. With Qwen3 - 8B and 14B
 
 ---
 
