@@ -1,4 +1,4 @@
-# Is Constrained Multimodal Narration Reliable for Visual Novels? An Evaluation of Schematic Input Performance in MLLMs
+# Is Constrained Narrating Reliable for Multimodal Visual Novels? An Evaluation of Schematic Input Performance in MLLMs
 > Submission Plan: NAACL SRW 2027 (Student Research Workshop at NAACL 2027)
 
 ## Abstract
