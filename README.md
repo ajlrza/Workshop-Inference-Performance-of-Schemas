@@ -15,9 +15,7 @@ Three visual novel world complexities are tested. Each category has worlds gener
 | # | Mode    | Character Sprites | Background Images | Character Dialogues | Turns |
 |---|---------|:-----------------:|:-----------------:|:-------------------:|:-----:|
 | 1 | Static  | 5                 | 3                 | 5                   | 10    |
-| 2 | Static  | 15                | 5                 | 15                  | 20    |
-| 3 | Dynamic |  5                | 3                 | 5                   | 10    |
-| 4 | Dynamic | 15                | 5                 | 15                  | 20    |
+| 2 | Dynamic | 5                 | 3                 | 5                   | 10    |
 
 ### Modes
 
