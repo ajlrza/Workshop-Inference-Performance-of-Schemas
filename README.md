@@ -6,6 +6,10 @@ Visual novels are often combined with text and images. Each components in a visu
 
 This paper aims to explore underlying resource expenditures during its inference and provide insights in how multimodal LLMs world building exhaust compute in the context of visual novels.
 
+We test a constrained schema on the model by attaching the sprite image, background image, and dialogues.
+
+
+
 ---
 
 ## Experimental Setup
