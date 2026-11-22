@@ -32,3 +32,7 @@ Three visual novel world complexities are tested. Each category has worlds gener
 - Multi-turn dialogues
 - Multi state tracking: character sprites, background images, character sprite dynamic expression
 - Branching choices
+
+### Methodology 
+<img width="937" height="1451" alt="tikz-export (1)" src="https://github.com/user-attachments/assets/b7d44450-3de8-4269-8931-1f4d4fd9c93b" />
+
