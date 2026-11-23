@@ -1,7 +1,7 @@
-schema = {
+world_building_schema = {
     "type": "function",
     "function": {
-        "name": "generate_schema_one",
+        "name": "generate_world_building_schema",
         "description": "Generate 5 character sprites, 3 backgrounds, and dialogues for 5 characters.",
         "parameters": {
             "type": "object",
@@ -55,6 +55,88 @@ schema = {
                 },
             },
             "required": ["Sprites", "Backgrounds", "Dialogues"],
+        },
+    },
+}
+
+text_scene_schema = {
+    "type": "function",
+    "function": {
+        "name": "generate_character_text_scene",
+        "description": "Generate the scene text description displaying the character sprite with corresponding background and dialogue.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "characater_name": {
+                    "type": "object",
+                    "properties": {
+                        "character_sprite": {"type": "string"},
+                    },
+                    "required": [
+                        "character_sprite",
+                    ],
+                },
+                "background_image": {
+                    "type": "object",
+                    "properties": {
+                        "background_image": {"type": "string"},
+                    },
+                    "required": [
+                        "background_image",
+                    ],
+                },
+                "characater_dialogue": {
+                    "type": "object",
+                    "properties": {
+                        "character_dialogue": {"type": "string"},
+                    },
+                    "required": [
+                        "character_dialogue",
+                    ],
+                },
+            },
+            "required": ["character_name", "background_image", "charcater_dialogue"],
+        },
+    },
+}
+
+image_scene_schema = {
+    "type": "function",
+    "function": {
+        "name": f"generate_character_text_scene",
+        "description": "Generate the scene image displaying the character sprite with corresponding background and dialogue.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "character_name": {
+                    "type": "object",
+                    "properties": {
+                        "character_sprite": {"type": "string"},
+                    },
+                    "required": [
+                        "character_sprite",
+                    ],
+                },
+                "background_image": {
+                    "type": "object",
+                    "properties": {
+                        "background_image": {"type": "string"},
+                    },
+                    "required": [
+                        "background_image",
+                    ],
+                },
+                "character_dialogue": {
+                    "type": "object",
+                    "properties": {
+                        "character_dialogue": {"type": "string"},
+                    },
+                    "required": [
+                        "cCharacter_dialogue",
+                    ],
+                },
+            },
+            "required": ["character_name", "background", "character_dialogue"],
         },
     },
 }

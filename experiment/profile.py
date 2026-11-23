@@ -1,12 +1,6 @@
 # CONFIG
-import torch
+from torch.autograd.profiler import ProfilerActivity
 from dataclasses import dataclass
-
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
-if torch.cuda.is_available():
-    print(f"GPU Count: {torch.cuda.device_count()}")
-    print(f"Device Name: {torch.cuda.get_device_name(0)}")
 
 @dataclass(slots=True)
 class metrics():
