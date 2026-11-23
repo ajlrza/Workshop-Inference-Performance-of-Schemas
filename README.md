@@ -29,5 +29,5 @@ Two visual novel world complexities are tested according to connections within t
 - Multi state tracking: character sprites, background images, character sprite dynamic expression
 
 ### Methodology 
-<img width="937" height="1451" alt="tikz-export (1)" src="https://github.com/user-attachments/assets/b7d44450-3de8-4269-8931-1f4d4fd9c93b" />
+<img width="1024" height="506" alt="image" src="https://github.com/user-attachments/assets/878af706-071a-47e8-b6a6-79359113a924" />
 
